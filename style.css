@@ -7,6 +7,16 @@ body {
     align-items: center;
     font-size: 16px;
 }
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 0;
+    z-index:0;
+}
 
 /* Main container styling */
 main {
@@ -16,6 +26,8 @@ main {
     max-height: 28.125em;
     display: flex;
     border-radius: 1rem;
+     position: relative;
+      z-index:1;
 }
 
 /* Image styling */
